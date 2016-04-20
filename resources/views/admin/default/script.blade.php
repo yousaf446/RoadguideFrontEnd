@@ -24,5 +24,6 @@
 
 <script type="text/javascript" src="assets/libraries/owl.carousel/owl.carousel.js"></script>
 <script type="text/javascript" src="assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
+<script type="text/javascript" src="{{URL::to('assets/libraries/requirejs/require.js')}}" data-main="{{URL::to('app/main.js')}}"></script>
 
 <script src="assets/js/superlist.js" type="text/javascript"></script>

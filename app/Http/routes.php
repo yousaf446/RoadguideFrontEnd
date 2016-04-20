@@ -35,8 +35,14 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 // Admin routes
 
-Route::get('/admin', function () {
-    return view('admin.index');
+Route::group(['prefix' => 'admin', 'middleware' => ['verify.session', 'web']], function(){
+    Route::get('/', function () {
+        return view('admin.index');
+    });
 });

@@ -1769,6 +1769,7 @@ return array(
     'PhpParser\\Node\\Stmt\\Interface_' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php',
     'PhpParser\\Node\\Stmt\\Label' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php',
     'PhpParser\\Node\\Stmt\\Namespace_' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php',
+    'PhpParser\\Node\\Stmt\\Nop' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php',
     'PhpParser\\Node\\Stmt\\Property' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php',
     'PhpParser\\Node\\Stmt\\PropertyProperty' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php',
     'PhpParser\\Node\\Stmt\\Return_' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php',
